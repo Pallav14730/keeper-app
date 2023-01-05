@@ -5,7 +5,7 @@ import { useState } from "react";
 import CreateArea from "./CreateArea";
 import Navbar from "./Navbar";
 import Note from "./Note";
-import Notes from "./Notes";
+
 
 const Home: NextPage = () => {
   const [notes, setNotes] = useState<string[]>([]);
